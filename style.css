@@ -90,7 +90,7 @@ main {
     font-family: 'Poppins', sans-serif;
 
     width: 100%;
-    height: 2000px;
+    height: auto;
 
     margin-top: 99.2vh;
     left: 0;
@@ -108,7 +108,6 @@ main {
     font-size: 40px;
     color: white;
 
-    max-width: 700px;
     width: 730px;
     margin: 70px auto 30px auto;
     border-bottom: 3px solid;
@@ -117,7 +116,9 @@ main {
 
 #projects-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));*/
+    grid-template-columns: 30% 30%;
+    justify-content: center;
 
     margin: 70px 20px 0 20px;
 
@@ -141,6 +142,8 @@ main {
     border-style: solid;
     border-color: black;
     background-color: rgb(44, 43, 43);
+    min-width: 300px;
+    margin-right: 10px;
         
 }
 
@@ -150,6 +153,7 @@ main {
     border-style: solid;
     border-color: black;
     background-color: rgb(44, 43, 43);
+    min-width: 300px;
 }
 
 #product-link {
@@ -157,6 +161,7 @@ main {
     border-style: solid;
     border-color: black;
     background-color: rgb(44, 43, 43);
+    min-width: 300px;
 }
 
 #tech-link {
@@ -164,4 +169,72 @@ main {
     border-style: solid;
     border-color: black;
     background-color: rgb(44, 43, 43);
+    min-width: 300px;
+}
+
+@media (max-width:940px) {
+    #projects-list{
+        grid-template-columns: 400px;
+    }
+}
+
+@media (max-width:730px) {
+    #projects-title{
+        width: 80vw;
+    }
+}
+
+.hover-text {
+    color: rgb(44, 43, 43);
+}
+
+#tribute-link:hover .hover-text {
+    color: rgb(163, 64, 28);
+    transition: 0.5s ease-out;
+}
+
+#survey-link:hover .hover-text {
+    color:rgb(163, 64, 28);
+    transition: 0.5s ease-out;
+}
+
+#product-link:hover .hover-text {
+    color: rgb(163, 64, 28);
+    transition: 0.5s ease-out;
+}
+
+#tech-link:hover .hover-text {
+    color: rgb(163, 64, 28);
+    transition: 0.5s ease-out;
+}
+
+#show-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#show-btn {    
+    background-color: rgb(44, 43, 43);
+    border: none;
+
+    width: 150px;
+    height: 50px;
+
+}
+
+#show-a {
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+
+    text-decoration: none;
+}
+#show-btn:hover {
+    background-color:  rgb(163, 64, 28);
+    transition: 0.4s ease-out;
 }
