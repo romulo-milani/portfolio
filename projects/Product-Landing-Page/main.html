@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/12c29c871e.js" crossorigin="anonymous"></script>
+    <title>FCC Product Landing Page</title>
+</head>
+<body> 
+
+    <header>
+        <div class="navbar">
+
+            <div id="image">
+                <img src="./images/logo.png" id="logo">
+            </div>
+            <div id="navlinks">
+                <ul >
+                    <li><a class="nava" href="#pricing">Pricing</a></li>
+                    <li><a class="nava" href="#video">How it Works</a></li>
+                    <li><a class="nava" href="#h2link">Features</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+
+    <div id="container">    
+
+
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.org/email-submit">
+            <input id="email" type="email" placeholder="Enter your email address" required>
+            <button type="submit" id="submitbtn"><strong>Get Started</strong> </button>
+        </form>
+    </div>
+
+    <div id="container-sec">
+        <section id="features">
+
+            <div id="first">
+                <div id="icon" class="icon" style="margin-left: 22px;">
+                    <i class="fas fa-3x fa-fire"></i>
+                </div>
+                <div id="text"> 
+                    <h2>Premium Materials</h2>
+                    <p>Our pianos use the sturdiest wood which is sourced locally. This will increase the longevity of your purchase.</p>
+
+                </div>
+            </div>
+
+            <div id="second">
+                <div id="sec-icon" class="icon">
+                    <i class="fas fa-3x fa-shipping-fast"></i>
+                </div>
+                <div id="sec-text">
+                    <h2 >Fast Shipping</h2>
+                    <p>We make sure you recieve your piano as soon as we have finished making it. We also provide  
+                        free returns <br> <br> if you are not satisfied.</p>
+
+                </div>
+            </div>
+
+            <div id="third">
+                <div id="thi-icon" class="icon" style="margin-left: 10px;">
+                    <i class="fas fa-3x fa-gem"></i>
+                </div>
+                <div id="thi-text">
+                    <h2>Quality Assurance</h2>
+                    <p> For every purchase you make, we will ensure there are no damages or faults and we will check and test the  <br> <br>
+                        tuning of your instrument. </p>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+    
+
+    <div id="videodiv"> 
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/idKzbWHJYJE" title="YouTube video player" frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="pricing">
+        <div id="div1" class="box"> 
+            <div class="title"> <strong>GRAND PIANO</strong></div>
+            <h3 >$ 120,000</h3>
+            <ol>
+                <li>A classic.</li>
+                <li>Beautiful design.</li>
+                <li>Amazing sound.</li>
+                <li>High durability.</li>
+            </ol>
+            <button type="submit" class="select" id="btn"> <strong>Select</strong> </button>
+        </div>
+        <div  id="div2" class="box">
+            <div class="title"> <strong>MEDIUM GRAND</strong></div>
+            <h3>$ 90,000</h3>
+            <ol>
+                <li>Beautiful design.</li>
+                <li>More affortable.</li>
+                <li>High durability.</li>
+                <li>A classic.</li>
+            </ol>
+            <button type="submit" class="select" id="btn"><strong>Select</strong></button>
+        </div>
+        <div id="div3" class="box">
+            <div class="title"> <strong>UPRIGHT PIANO</strong></div>
+            <h3>$ 60,000</h3>
+            <ol>                
+                <li>Affordable.</li>
+                <li>Smaller size.</li>
+                <li>Amazing sound.</li>
+                <li>Easy transportation.</li>
+               
+            </ol>
+            <button type="submit" class="select" id="btn"><strong>Select</strong></button>
+        </div>
+    </div>
+    
+    <footer>
+        <span id="terms"> <strong>Privacy Terms Contract</strong><br></span>
+        <span>Copyright 2016, Original Piano</span>
+    </footer>
+
+
+
+</body>
+</html>

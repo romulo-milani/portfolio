@@ -1,0 +1,279 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1fr;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    align-content: center;
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 60%;  
+    grid-template-areas: "image links";
+    justify-content: space-between;
+    
+}
+
+#container {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 730px) {
+    .navbar {
+        grid-template-areas: "a";
+        grid-template-columns: 100%;
+    
+    }
+   #navlinks {
+        margin-left: -600px;
+    }
+    #logo {
+        padding-left: 50px;
+        margin-top: 15px;
+    }    
+    #container {
+        margin-top: 160px;
+    }
+}
+
+@media (min-width: 696px) {
+    #image {
+        margin-left: 5%;
+    }
+}
+
+#image {
+
+    display: grid;
+    justify-content:flex-start;
+    align-content: flex-end;
+}
+
+#navlinks {
+    grid-area: links;
+}
+
+#logo {
+    grid-area: image;
+    height: 60px;
+    min-width: 80%;
+
+}
+
+ul li{
+
+    list-style: none;
+    margin-right: 10%;
+    float: right;
+        
+}
+
+
+.nava {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#email {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+#submitbtn {    
+    height: 35px;
+    width: 120px;
+    margin-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+
+    background-color: rgb(139, 74, 74);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#submitbtn:hover {
+    background-color: rgb(175, 53, 31);
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+}
+
+#container-sec {
+    margin-top: 160px;
+}
+
+#first, #second, #third {
+    display: flex;   
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+
+    color:  rgb(80, 42, 42);
+}
+
+
+
+@media (max-width: 676px) {
+    #first, #second, #third {
+        text-align: left;
+    }
+    i {
+        visibility: hidden;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+#video {
+    margin-top: 70px;
+
+}
+
+#videodiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+ol li {
+    list-style: none;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 320px;
+    margin: 8px;
+    border-style: solid;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    background-color: rgb(139, 74, 74);
+    font-size: 20px;
+    color: white;
+
+    width: 100%;
+    height: 30px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+ol li {
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.select {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(228, 220, 220);
+    
+}
+
+#btn:hover {
+    background-color: rgb(175, 53, 31);
+    color: white;
+    transition: background-color 0.5s;
+}
+
+@media (max-width: 780px) {
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+span { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+}
+
+
+#terms {
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+footer {
+    background-color: rgb(223, 219, 219);
+    width: 60%;
+    height: 80px;
+    margin: 40px 20% -10px 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
