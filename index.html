@@ -4,47 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Rômulo Milani | Front-end Developer</title>
   </head>
   <body>
     <header>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul class="header-ul">
+        <li class="header-li"><a class="header-a" href="#">Home</a></li>
+        <li class="header-li"><a class="header-a" href="#">About</a></li>
+        <li class="header-li"><a class="header-a" href="#">Work</a></li>
+        <li class="header-li"><a class="header-a" href="#">Contact</a></li>
+        <li class="header-li">
+          <a class="header-a" href="#"
+            ><span class="material-symbols-outlined"> dark_mode </span></a
+          >
+        </li>
       </ul>
-      <p>Dark/Light Mode</p>
     </header>
     <main>
       <div class="about">
-        <h2>Hello, my name is</h2>
-        <h1>Rômulo Milani, <br>A Web Developer</h1>
-        <p>I'm an aspiring front-end developer from Brazil! I design beautiful, engaging and responsive web sites. Chekout my work below!</p>
-        <button>Learn more</button>
+        <div class="textWrapper">
+          <h2>Hi, my name is</h2>
+          <h1>Rômulo Milani, <br />A Web Developer</h1>
+          <p class="description">
+            I'm an aspiring front-end developer from Brazil! I design beautiful,
+            engaging and responsive web sites. <br />
+            Chekout my work below!
+          </p>
+          <button class="learnBtn">Learn more</button>
+        </div>
       </div>
       <div class="work">
         <h3>Here Are Some of My Projects</h3>
         <div class="css">
-            <h4>Responsive WebSites with HTML and CSS</h4>
-            
+          <h4>Responsive WebSites with HTML and CSS</h4>
         </div>
         <div class="js-projects">
-            <h4>Interactive Websites with JavaScript</h4>
+          <h4>Interactive Websites with JavaScript</h4>
         </div>
       </div>
       <div class="contact">
         <h3>Let's Code together</h3>
         <ul>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Email</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Email</a></li>
         </ul>
       </div>
     </main>
-    <footer>
-        Rômulo Milani 2023
-    </footer>
+    <footer>Rômulo Milani 2023</footer>
   </body>
 </html>
