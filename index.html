@@ -1,104 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/12c29c871e.js" crossorigin="anonymous"></script>
-
-    <title>Rômulo Milani</title>
-</head>
-<body>
-    <header id="menu-header">
-        <nav id="header-nav">
-            <a class="nav-link" href="#name-section">About</a>
-            <a class="nav-link" href="#projects-section">Work</a>
-            <a class="nav-link" href="#contact-section">Contact</a>
-        </nav>        
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rômulo Milani | Front-end Developer</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>Dark/Light Mode</p>
     </header>
-
     <main>
-        <section id="name-section">
-            <h1 id="name-title">Hey I am Romulo</h1>
-            <p id="name-description">A Web Developer</p>    
-        </section>
-    
-        <section id="projects-section">
+      <div class="about">
+        <h2>Hello, my name is</h2>
+        <h1>Rômulo Milani, <br>A Web Developer</h1>
+        <p>I'm an aspiring front-end developer from Brazil! I design beautiful, engaging and responsive web sites. Chekout my work below!</p>
+        <button>Learn more</button>
+      </div>
+      <div class="work">
+        <h3>Here Are Some of My Projects</h3>
+        <div class="css">
+            <h4>Responsive WebSites with HTML and CSS</h4>
             
-            <h2 id="projects-title">These are some of my projects</h2>            
-            
-            <div id="projects-list">
-
-                <a id="tribute-link" href="https://romulo-milani.github.io/desafio-alura/" target="_blank">
-                    <img class="project-img" src="./Images/teste.PNG">               
-                    <p class="project-text">
-                        <span class="hover-text"> <strong>&lt;</strong> </span>
-                        Jobs Website
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>                   
-                </a>
-
-                <a href="./projects/SurveyForm-main/main.html" target="_blank" id="survey-link">
-                    <img class="project-img" src="./Images/surveyForm.jpg">
-                    <p class="project-text"> 
-                        <span class="hover-text">&lt;</span>
-                        Survey Form
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-
-                <a href="./projects/Product-Landing-Page/main.html" target="_blank" id="product-link">
-                    <img class="project-img" src="./Images/product.jpg">
-                    <p class="project-text">
-                        <span class="hover-text">&lt;</span>
-                        Landing Page
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-
-                <a href="./projects/Technical-Documentation-Page-main/main.html" target="_blank" id="tech-link">
-                    <img class="project-img" src="./Images/techPage.jpg">
-                    <p class="project-text">
-                        <span class="hover-text">&lt;</span>
-                        Documantation Page
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-            </div>   
-            <form action="#" name="show" id="show-form">
-                <button type="button" name="show" id="show-btn"> 
-                    <a href="https://github.com/romulo-milani" target="_blank" id="show-a" >Show All &gt;
-                    </a> 
-                </button>
-
-            </form>
-            
-        </section>
-
-        <section id="contact-section">
-            <h2 id="contact-h2">Let's code together...</h2>
-            <p id="contact-p"> Contact me below</p>
-
-            <div id="contact-links"> 
-                <a class="hover-link" href="https://www.facebook.com/romulo.delgadomilani.5" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
-                <a class="hover-link" href="https://github.com/romulo-milani" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a class="hover-link" href="https://www.linkedin.com/in/r%C3%B4mulo-perez-delgado-milani-82540269/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a class="hover-link" href="./email.html" target="_blank"><i class="fas fa-envelope"></i> Send a mail</a>
-            </div>           
-
-        </section>
-
-        <footer>
-            <h4><i class="far fa-copyright"></i>Created by Rômulo Delgado Milani for freeCodeCamp.com</h4>
-        </footer>
-
+        </div>
+        <div class="js-projects">
+            <h4>Interactive Websites with JavaScript</h4>
+        </div>
+      </div>
+      <div class="contact">
+        <h3>Let's Code together</h3>
+        <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Email</a></li>
+        </ul>
+      </div>
     </main>
-    
-    
-</body>
+    <footer>
+        Rômulo Milani 2023
+    </footer>
+  </body>
 </html>
