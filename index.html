@@ -19,11 +19,10 @@
     <title>Rômulo Milani | Front-end Developer</title>
   </head>
   <body>
-    <header>
+    <header id="home">
       <ul class="header-ul">
-        <li class="header-li"><a class="header-a" href="#">Home</a></li>
-        <li class="header-li"><a class="header-a" href="#">About</a></li>
-        <li class="header-li"><a class="header-a" href="#">Work</a></li>
+        <li class="header-li"><a class="header-a" href="#home">Home</a></li>
+        <li class="header-li"><a class="header-a" href="#work">Work</a></li>
         <li class="header-li"><a class="header-a" href="#">Contact</a></li>
         <li class="header-li">
           <a class="header-a" href="#"
@@ -42,102 +41,170 @@
             engaging and responsive web sites. <br />
             Chekout my work below!
           </p>
-          <button class="learnBtn">Learn more</button>
+          <button
+            id="learnBtn"
+            class="learnBtn"
+            onClick="document.getElementById('work').scrollIntoView().scrollIntoView();"
+          >
+            Learn more
+          </button>
         </div>
       </div>
-      <div class="work">
+      <div class="work" id="work">
         <h3>Here Are Some of My Projects</h3>
-        <div class="css">
-          <h4><u>Responsive WebSites with HTML and CSS</u></h4>
-          <div class="projectWrapper">
-            <div class="projectCard">
-              <a href=""
-                ><img
-                  src="Images/landingpage.png"
-                  alt="salespage"
-                  class="cardImg"
-              /></a>
-              <a class="description" href="">Sales Page</a>
-            </div>
-            <div class="projectCard">
-              <a href=""
-                ><img
-                  src="Images/admdashboard.png"
-                  alt="admdashboard"
-                  class="cardImg"
-              /></a>
-              <a class="description" href="">Admin Dashboard</a>
-            </div>
-            <div class="projectCard">
-              <a href=""
-                ><img
-                  src="Images/google.png"
-                  alt="googleclonepage"
-                  class="cardImg"
-              /></a>
-              <a class="description" href="">Google Clone Page</a>
-            </div>
-            <div class="projectCard">
-              <a href=""
-                ><img
-                  src="Images/salespage.png"
-                  alt="landingPage"
-                  class="cardImg"
-              /></a>
-              <a class="description" href="">Landing Page</a>
-            </div>
-            <div class="projectCard">
-              <a href="">
-                <img src="Images/signup.png" alt="signupform" class="cardImg" />
-              </a>
-              <a class="description" href="">Sign up Form</a>
-            </div>
-            <div class="projectCard">
-              <a href=""
-                ><img
-                  src="Images/surveyform.png"
-                  alt="surveyform"
-                  class="cardImg"
-              /></a>
-              <a class="description" href="">Survey Form</a>
-            </div>
+        <h4><u>Responsive WebSites with HTML and CSS</u></h4>
+        <div class="projectWrapper">
+          <div class="projectCard">
+            <a
+              href="https://codepen.io/freeCodeCamp/full/RKRbwL"
+              target="_blank"
+              ><img
+                src="Images/landingpage.png"
+                alt="salespage"
+                class="cardImg"
+            /></a>
+            <a
+              class="description"
+              href="https://codepen.io/freeCodeCamp/full/RKRbwL"
+              target="_blank"
+              >Sales Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/adminDashboard/"
+              target="_blank"
+              ><img
+                src="Images/admdashboard.png"
+                alt="admdashboard"
+                class="cardImg"
+            /></a>
+            <a
+              class="description"
+              href="https://romulo-milani.github.io/adminDashboard/"
+              target="_blank"
+              >Admin Dashboard</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/Google-Homepage/"
+              target="_blank"
+              ><img
+                src="Images/google.png"
+                alt="googleclonepage"
+                class="cardImg"
+            /></a>
+            <a
+              class="description"
+              href="https://romulo-milani.github.io/Google-Homepage/"
+              target="_blank"
+              >Google Clone Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/desafio-alura/"
+              target="_blank"
+              ><img
+                src="Images/salespage.png"
+                alt="landingPage"
+                class="cardImg"
+            /></a>
+            <a
+              class="description"
+              href="https://romulo-milani.github.io/desafio-alura/"
+              target="_blank"
+              >Landing Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a href="https://romulo-milani.github.io/form/" target="_blank">
+              <img src="Images/signup.png" alt="signupform" class="cardImg" />
+            </a>
+            <a
+              class="description"
+              href="https://romulo-milani.github.io/form/"
+              target="_blank"
+              >Sign up Form</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://codepen.io/freeCodeCamp/full/VPaoNP"
+              target="_blank"
+              ><img
+                src="Images/surveyform.png"
+                alt="surveyform"
+                class="cardImg"
+            /></a>
+            <a
+              class="description"
+              href="https://codepen.io/freeCodeCamp/full/VPaoNP"
+              target="_blank"
+              >Survey Form</a
+            >
           </div>
         </div>
         <div class="js-projects">
           <h4><u>Interactive Websites with JavaScript</u></h4>
           <div class="projectWrapper">
             <div class="projectCard">
-              <a href=""
+              <a href="https://romulo-milani.github.io/Desenhe/" target="_blank"
                 ><img
                   src="Images/etchasketch.png"
                   alt="etchasketch"
                   class="cardImg"
               /></a>
-              <a class="description" href="">Etch a Sketch</a>
+              <a
+                class="description"
+                href="https://romulo-milani.github.io/Desenhe/"
+                target="_blank"
+                >Etch a Sketch</a
+              >
             </div>
             <div class="projectCard">
-              <a href=""
+              <a
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
                 ><img
                   src="Images/jscalculator.png"
                   alt="jscalculator"
                   class="cardImg"
               /></a>
-              <a class="description" href="">Calculator</a>
+              <a
+                class="description"
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
+                >Calculator</a
+              >
             </div>
             <div class="projectCard">
-              <a href=""
+              <a href="https://romulo-milani.github.io/library/" target="_blank"
                 ><img src="Images/library.png" alt="library" class="cardImg"
               /></a>
-              <a class="description" href="">Library</a>
+              <a
+                class="description"
+                href="https://romulo-milani.github.io/library/"
+                target="_blank"
+                >Library</a
+              >
             </div>
             <div class="projectCard">
-              <a href=""
+              <a
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
                 ><img
                   src="Images/rockpaperscisors.png"
                   alt="rockpaperscisors"
                   class="cardImg"
               /></a>
-              <a class="description" href="">Rock, Paper and Scissors</a>
+              <a
+                class="description"
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
+                >Rock, Paper and Scissors</a
+              >
             </div>
           </div>
         </div>
