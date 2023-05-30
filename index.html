@@ -1,104 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/12c29c871e.js" crossorigin="anonymous"></script>
-
-    <title>Rômulo Milani</title>
-</head>
-<body>
-    <header id="menu-header">
-        <nav id="header-nav">
-            <a class="nav-link" href="#name-section">About</a>
-            <a class="nav-link" href="#projects-section">Work</a>
-            <a class="nav-link" href="#contact-section">Contact</a>
-        </nav>        
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rômulo Milani | Front-end Developer</title>
+  </head>
+  <body>
+    <header id="home">
+      <ul class="header-ul">
+        <li class="header-li"><a class="header-a" href="#home">Home</a></li>
+        <li class="header-li"><a class="header-a" href="#work">Work</a></li>
+        <li class="header-li">
+          <a class="header-a" href="#contact">Contact</a>
+        </li>
+        <li class="header-li">
+          <a class="header-a" href="#"
+            ><span id="theme" class="material-symbols-outlined">
+              dark_mode
+            </span></a
+          >
+        </li>
+      </ul>
     </header>
-
     <main>
-        <section id="name-section">
-            <h1 id="name-title">Hey I am Romulo</h1>
-            <p id="name-description">A Web Developer</p>    
-        </section>
-    
-        <section id="projects-section">
-            
-            <h2 id="projects-title">These are some of my projects</h2>            
-            
-            <div id="projects-list">
-
-                <a id="tribute-link" href="https://romulo-milani.github.io/desafio-alura/" target="_blank">
-                    <img class="project-img" src="./Images/teste.PNG">               
-                    <p class="project-text">
-                        <span class="hover-text"> <strong>&lt;</strong> </span>
-                        Jobs Website
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>                   
-                </a>
-
-                <a href="./projects/SurveyForm-main/main.html" target="_blank" id="survey-link">
-                    <img class="project-img" src="./Images/surveyForm.jpg">
-                    <p class="project-text"> 
-                        <span class="hover-text">&lt;</span>
-                        Survey Form
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-
-                <a href="./projects/Product-Landing-Page/main.html" target="_blank" id="product-link">
-                    <img class="project-img" src="./Images/product.jpg">
-                    <p class="project-text">
-                        <span class="hover-text">&lt;</span>
-                        Landing Page
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-
-                <a href="./projects/Technical-Documentation-Page-main/main.html" target="_blank" id="tech-link">
-                    <img class="project-img" src="./Images/techPage.jpg">
-                    <p class="project-text">
-                        <span class="hover-text">&lt;</span>
-                        Documantation Page
-                        <span class="hover-text">&#47; &gt;</span>
-                    </p>
-                </a>
-            </div>   
-            <form action="#" name="show" id="show-form">
-                <button type="button" name="show" id="show-btn"> 
-                    <a href="https://github.com/romulo-milani" target="_blank" id="show-a" >Show All &gt;
-                    </a> 
-                </button>
-
-            </form>
-            
-        </section>
-
-        <section id="contact-section">
-            <h2 id="contact-h2">Let's code together...</h2>
-            <p id="contact-p"> Contact me below</p>
-
-            <div id="contact-links"> 
-                <a class="hover-link" href="https://www.facebook.com/romulo.delgadomilani.5" target="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
-                <a class="hover-link" href="https://github.com/romulo-milani" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a class="hover-link" href="https://www.linkedin.com/in/r%C3%B4mulo-perez-delgado-milani-82540269/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a class="hover-link" href="./email.html" target="_blank"><i class="fas fa-envelope"></i> Send a mail</a>
-            </div>           
-
-        </section>
-
-        <footer>
-            <h4><i class="far fa-copyright"></i>Created by Rômulo Delgado Milani for freeCodeCamp.com</h4>
-        </footer>
-
+      <div class="about">
+        <div class="textWrapper">
+          <h2>Hi, my name is</h2>
+          <h1>Rômulo Milani, <br />A Web Developer</h1>
+          <p class="description">
+            I'm an aspiring front-end developer from Brazil! I design beautiful,
+            engaging and responsive web sites. <br />
+            Chekout my work below!
+          </p>
+          <button
+            id="learnBtn"
+            class="learnBtn"
+            onClick="document.getElementById('work').scrollIntoView();"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+      <div class="work" id="work">
+        <h3 id="projectSectionTitle">Here Are Some of My Projects</h3>
+        <h4><u>Responsive WebSites with HTML and CSS</u></h4>
+        <div class="projectWrapper">
+          <div class="projectCard">
+            <a
+              href="https://codepen.io/freeCodeCamp/full/RKRbwL"
+              target="_blank"
+              ><img
+                src="Images/landingpage.png"
+                alt="salespage"
+                class="cardImg"
+            /></a>
+            <a
+              class="cardDescription"
+              href="https://codepen.io/freeCodeCamp/full/RKRbwL"
+              target="_blank"
+              >Sales Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/adminDashboard/"
+              target="_blank"
+              ><img
+                src="Images/admdashboard.png"
+                alt="admdashboard"
+                class="cardImg"
+            /></a>
+            <a
+              class="cardDescription"
+              href="https://romulo-milani.github.io/adminDashboard/"
+              target="_blank"
+              >Admin Dashboard</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/Google-Homepage/"
+              target="_blank"
+              ><img
+                src="Images/google.png"
+                alt="googleclonepage"
+                class="cardImg"
+            /></a>
+            <a
+              class="cardDescription"
+              href="https://romulo-milani.github.io/Google-Homepage/"
+              target="_blank"
+              >Google Clone Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://romulo-milani.github.io/desafio-alura/"
+              target="_blank"
+              ><img
+                src="Images/salespage.png"
+                alt="landingPage"
+                class="cardImg"
+            /></a>
+            <a
+              class="cardDescription"
+              href="https://romulo-milani.github.io/desafio-alura/"
+              target="_blank"
+              >Landing Page</a
+            >
+          </div>
+          <div class="projectCard">
+            <a href="https://romulo-milani.github.io/form/" target="_blank">
+              <img src="Images/signup.png" alt="signupform" class="cardImg" />
+            </a>
+            <a
+              class="cardDescription"
+              href="https://romulo-milani.github.io/form/"
+              target="_blank"
+              >Sign up Form</a
+            >
+          </div>
+          <div class="projectCard">
+            <a
+              href="https://codepen.io/freeCodeCamp/full/VPaoNP"
+              target="_blank"
+              ><img
+                src="Images/surveyform.png"
+                alt="surveyform"
+                class="cardImg"
+            /></a>
+            <a
+              class="cardDescription"
+              href="https://codepen.io/freeCodeCamp/full/VPaoNP"
+              target="_blank"
+              >Survey Form</a
+            >
+          </div>
+        </div>
+        <div class="js-projects">
+          <h4><u>Interactive Websites with JavaScript</u></h4>
+          <div class="projectWrapper">
+            <div class="projectCard">
+              <a href="https://romulo-milani.github.io/Desenhe/" target="_blank"
+                ><img
+                  src="Images/etchasketch.png"
+                  alt="etchasketch"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/Desenhe/"
+                target="_blank"
+                >Etch a Sketch</a
+              >
+            </div>
+            <div class="projectCard">
+              <a
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
+                ><img
+                  src="Images/jscalculator.png"
+                  alt="jscalculator"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
+                >Calculator</a
+              >
+            </div>
+            <div class="projectCard">
+              <a href="https://romulo-milani.github.io/library/" target="_blank"
+                ><img src="Images/library.png" alt="library" class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/library/"
+                target="_blank"
+                >Library</a
+              >
+            </div>
+            <div class="projectCard">
+              <a
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
+                ><img
+                  src="Images/rockpaperscisors.png"
+                  alt="rockpaperscisors"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
+                >Rock, Paper and Scissors</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <h3>Let's Code together</h3>
+        <ul class="contactUl">
+          <li>
+            <a href="https://github.com/romulo-milani" target="_blank"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="email.html" target="_blank"
+              ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
     </main>
-    
-    
-</body>
+    <footer>Rômulo Milani 2023</footer>
+    <script src="script.js"></script>
+  </body>
 </html>
