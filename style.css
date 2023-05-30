@@ -121,3 +121,45 @@ h1 {
   text-align: center;
   padding-top: 4rem;
 }
+
+h4 {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+}
+
+.projectWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+.projectCard:hover {
+  box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0.342);
+  transition: 0.2s;
+}
+
+.cardImg {
+  width: 32rem;
+  height: auto;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.description {
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px;
+}
