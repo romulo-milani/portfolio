@@ -1,19 +1,24 @@
 :root {
   --background-color: rgb(39, 39, 39);
-  --darkmode-text-color: white;
-  --lightmode-text-color: black;
+  --text-color: white;
   --hover-color: rgb(153, 6, 197);
+}
+
+.lightMode {
+  --background-color: rgb(230, 227, 227);
+  --text-color: black;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background: var(--background-color);
-  color: var(--darkmode-text-color);
+  color: var(--text-color);
+  transition: 1s;
 }
 
 a {
   text-decoration: none;
-  color: var(--darkmode-text-color);
+  color: var(--text-color);
 }
 
 header {
@@ -47,7 +52,7 @@ span {
 }
 
 span:hover {
-  color: var(--lightmode-text-color);
+  color: purple;
   background-color: white;
   transition: 0.5s;
 }
@@ -128,6 +133,10 @@ h1 {
   padding-bottom: 4rem;
 }
 
+#projectSectionTitle {
+  color: white;
+}
+
 h4 {
   margin-top: 3rem;
   font-weight: 700;
@@ -165,10 +174,11 @@ h4 {
   border-radius: 10px;
 }
 
-.description {
+.cardDescription {
   border-radius: 10px;
   font-weight: 700;
   padding: 10px;
+  color: white;
 }
 
 .contact {
@@ -222,5 +232,9 @@ footer {
 @media (max-width: 530px) {
   .cardImg {
     width: 20rem;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 }
