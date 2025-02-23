@@ -16,15 +16,15 @@
     />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Rômulo Milani | Front-end Developer</title>
+    <title>Rômulo Milani | Desenvolvedor</title>
   </head>
   <body>
     <header id="home">
       <ul class="header-ul">
         <li class="header-li"><a class="header-a" href="#home">Home</a></li>
-        <li class="header-li"><a class="header-a" href="#work">Work</a></li>
+        <li class="header-li"><a class="header-a" href="#work">Projetos</a></li>
         <li class="header-li">
-          <a class="header-a" href="#contact">Contact</a>
+          <a class="header-a" href="#contact">Contato</a>
         </li>
         <li class="header-li">
           <a class="header-a" href="#"
@@ -38,25 +38,86 @@
     <main>
       <div class="about">
         <div class="textWrapper">
-          <h2>Hi, my name is</h2>
-          <h1>Rômulo Milani, <br />A Web Developer</h1>
+          <h2>Olá, eu sou</h2>
+          <h1>Rômulo Milani, <br />Desenvolvedor Web</h1>
           <p class="description">
-            I'm an aspiring front-end developer from Brazil! I design beautiful,
-            engaging and responsive web sites. <br />
-            Check out my work below!
+            Meu objetivo é devenvolver sites e aplicações responsivas, engajantes e elegantes. 
+            <br />
+            Conheça meu trabalho abaixo!
           </p>
           <button
             id="learnBtn"
             class="learnBtn"
             onClick="document.getElementById('work').scrollIntoView();"
           >
-            Learn more
+            Saiba Mais
           </button>
         </div>
       </div>
       <div class="work" id="work">
-        <h3 id="projectSectionTitle">Here Are Some of My Projects</h3>
-        <h4><u>Responsive WebSites with HTML and CSS</u></h4>
+        <h3 id="projectSectionTitle">Esses são alguns de meus projetos</h3>        
+          <h4><u>Websites Interativos Usando JavaScript</u></h4>
+          <div class="projectWrapper">
+            <div class="projectCard">
+              <a href="https://romulo-milani.github.io/Desenhe/" target="_blank"
+                ><img
+                  src="Images/etchasketch.png"
+                  alt="etchasketch"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/Desenhe/"
+                target="_blank"
+                >Desenhe!</a
+              >
+            </div>
+            <div class="projectCard">
+              <a
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
+                ><img
+                  src="Images/jscalculator.png"
+                  alt="jscalculator"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/jsCalculator/"
+                target="_blank"
+                >Calculadora Online</a
+              >
+            </div>
+            <div class="projectCard">
+              <a href="https://romulo-milani.github.io/library/" target="_blank"
+                ><img src="Images/library.png" alt="library" class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/library/"
+                target="_blank"
+                >Livraria Online</a
+              >
+            </div>
+            <div class="projectCard">
+              <a
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
+                ><img
+                  src="Images/rockpaperscisors.png"
+                  alt="rockpaperscisors"
+                  class="cardImg"
+              /></a>
+              <a
+                class="cardDescription"
+                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
+                target="_blank"
+                >Jogue Pedra, Papel e Tesoura</a
+              >
+            </div>
+          </div>
+
+          <h4><u>Websites Responsivos usando HTML e CSS <br><br> Clique para visualizar</u></h4>
         <div class="projectWrapper">
           <div class="projectCard">
             <a
@@ -71,7 +132,7 @@
               class="cardDescription"
               href="https://codepen.io/freeCodeCamp/full/RKRbwL"
               target="_blank"
-              >Sales Page</a
+              >Página de Vendas</a
             >
           </div>
           <div class="projectCard">
@@ -103,7 +164,7 @@
               class="cardDescription"
               href="https://romulo-milani.github.io/Google-Homepage/"
               target="_blank"
-              >Google Clone Page</a
+              >Cline Página do Google</a
             >
           </div>
           <div class="projectCard">
@@ -119,7 +180,7 @@
               class="cardDescription"
               href="https://romulo-milani.github.io/desafio-alura/"
               target="_blank"
-              >Landing Page</a
+              >Página de Vendas</a
             >
           </div>
           <div class="projectCard">
@@ -130,7 +191,7 @@
               class="cardDescription"
               href="https://romulo-milani.github.io/form/"
               target="_blank"
-              >Sign up Form</a
+              >Formulário de Inscrição</a
             >
           </div>
           <div class="projectCard">
@@ -146,71 +207,11 @@
               class="cardDescription"
               href="https://codepen.io/freeCodeCamp/full/VPaoNP"
               target="_blank"
-              >Survey Form</a
+              >Formulário de Pesquisa</a
             >
           </div>
         </div>
         <div class="js-projects">
-          <h4><u>Interactive Websites with JavaScript</u></h4>
-          <div class="projectWrapper">
-            <div class="projectCard">
-              <a href="https://romulo-milani.github.io/Desenhe/" target="_blank"
-                ><img
-                  src="Images/etchasketch.png"
-                  alt="etchasketch"
-                  class="cardImg"
-              /></a>
-              <a
-                class="cardDescription"
-                href="https://romulo-milani.github.io/Desenhe/"
-                target="_blank"
-                >Etch a Sketch</a
-              >
-            </div>
-            <div class="projectCard">
-              <a
-                href="https://romulo-milani.github.io/jsCalculator/"
-                target="_blank"
-                ><img
-                  src="Images/jscalculator.png"
-                  alt="jscalculator"
-                  class="cardImg"
-              /></a>
-              <a
-                class="cardDescription"
-                href="https://romulo-milani.github.io/jsCalculator/"
-                target="_blank"
-                >Calculator</a
-              >
-            </div>
-            <div class="projectCard">
-              <a href="https://romulo-milani.github.io/library/" target="_blank"
-                ><img src="Images/library.png" alt="library" class="cardImg"
-              /></a>
-              <a
-                class="cardDescription"
-                href="https://romulo-milani.github.io/library/"
-                target="_blank"
-                >Library</a
-              >
-            </div>
-            <div class="projectCard">
-              <a
-                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
-                target="_blank"
-                ><img
-                  src="Images/rockpaperscisors.png"
-                  alt="rockpaperscisors"
-                  class="cardImg"
-              /></a>
-              <a
-                class="cardDescription"
-                href="https://romulo-milani.github.io/pedra-papel-tesoura/"
-                target="_blank"
-                >Rock, Paper and Scissors</a
-              >
-            </div>
-          </div>
         </div>
       </div>
       <div class="contact" id="contact">
@@ -237,7 +238,7 @@
         </ul>
       </div>
     </main>
-    <footer>Rômulo Milani 2023</footer>
+    <footer>Rômulo Milani 2025</footer>
     <script src="script.js"></script>
   </body>
 </html>
