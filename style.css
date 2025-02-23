@@ -59,10 +59,11 @@ span:hover {
 
 .about {
   padding: 2rem;
-  margin-top: 15rem;
+  margin-top: 8rem;
   margin-bottom: 15rem;
+  margin-left: 8rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .textWrapper {
